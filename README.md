@@ -18,61 +18,11 @@ AetherSSH is a modern, high-performance, and visually stunning SSH & Server Mana
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Backend:** Go (Golang) + Wails v2
-- **Frontend:** React, TypeScript, Vite
-- **Styling:** TailwindCSS
-- **Terminal:** xterm.js + xterm-addon-fit
-- **Icons:** Lucide React
-
----
-
 ## 📦 Download & Installation
 
 Visit the [Releases](https://github.com/hongsonvu0622-stack/aetherssh-tool/releases) page to download the latest compiled version for macOS. 
 
 *Note: The current releases provide Universal macOS binaries (`darwin/universal`) supporting both Intel and Apple Silicon (M1/M2/M3) Macs.*
-
----
-
-## 🚀 Building from Source
-
-To build AetherSSH locally, ensure you have Go (1.20+) and Node.js (18+) installed.
-
-1. **Install Wails CLI:**
-   ```bash
-   go install github.com/wailsapp/wails/v2/cmd/wails@latest
-   ```
-
-2. **Clone the repository:**
-   ```bash
-   git clone <your-repo-url>
-   cd aetherssh/ssh-mgmt-go
-   ```
-
-3. **Install Frontend Dependencies:**
-   ```bash
-   cd frontend
-   npm install
-   cd ..
-   ```
-
-4. **Run in Development Mode:**
-   ```bash
-   wails dev
-   ```
-
-5. **Build for Production (macOS Universal):**
-   ```bash
-   wails build -platform darwin/universal
-   ```
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
 
 ---
 
